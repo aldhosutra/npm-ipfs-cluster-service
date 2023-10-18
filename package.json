@@ -26,7 +26,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/micemedia/npm-ipfs-cluster.git"
+    "url": "git+https://github.com/aldhosutra/npm-ipfs-cluster-service.git"
   },
   "keywords": [
     "ipfs",
@@ -35,9 +35,9 @@
   "author": "MICEMedia",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/micemedia/npm-ipfs-cluster/issues"
+    "url": "https://github.com/aldhosutra/npm-ipfs-cluster-service/issues"
   },
-  "homepage": "https://github.com/micemedia/npm-ipfs-cluster",
+  "homepage": "https://github.com/aldhosutra/npm-ipfs-cluster-service",
   "types": "./dist/src/types.d.ts",
   "devDependencies": {
     "@types/got": "^9.6.12",
