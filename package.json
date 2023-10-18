@@ -1,5 +1,5 @@
 {
-  "name": "npm-ipfs-cluster-service",
+  "name": "ipfs-cluster-service",
   "version": "1.0.7",
   "description": "Install the latest ipfs-cluster-service binary",
   "main": "src/index.js",
