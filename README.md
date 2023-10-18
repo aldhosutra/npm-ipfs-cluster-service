@@ -10,12 +10,12 @@ Install the latest (ipfs-cluster-service) binary:
 # Install globally
 > npm install -g ipfs-cluster-service
 > ipfs-cluster-service
-ipfs-cluster-service version v1.0.6
+ipfs-cluster-service version v1.0.7
 
 # Install locally
 > npm install ipfs-cluster-service
 > ./node_modules/.bin/ipfs
-ipfs-cluster-service version v1.0.6
+ipfs-cluster-service version v1.0.7
 ```
 
 ## License

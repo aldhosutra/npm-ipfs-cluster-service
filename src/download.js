@@ -253,7 +253,7 @@ async function link({ depBin, version }) {
   }
 
   //  var actualVersion = `v${m[1]}`
-  var actualVersion = `v1.0.6`;
+  var actualVersion = `v1.0.7`;
 
   if (actualVersion !== version) {
     throw new Error(
