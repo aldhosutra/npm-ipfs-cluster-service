@@ -247,7 +247,7 @@ async function link({ depBin, version }) {
 
   var outstr = result.stdout.toString();
 
-  var actualVersion = outstr;
+  var actualVersion = `v${outstr}`;
 
   if (actualVersion !== version) {
     throw new Error(
