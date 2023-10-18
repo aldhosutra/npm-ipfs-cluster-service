@@ -32,7 +32,7 @@
     "ipfs",
     "install"
   ],
-  "author": "MICEMedia",
+  "author": "aldhosutra",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/aldhosutra/npm-ipfs-cluster-service/issues"
