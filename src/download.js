@@ -246,14 +246,8 @@ async function link({ depBin, version }) {
   }
 
   var outstr = result.stdout.toString();
-  var m = /ipfs-cluster-service version ([^\n]+)\n/.exec(outstr);
 
-  if (!m) {
-    throw new Error("Could not determine IPFS Cluster version");
-  }
-
-  //  var actualVersion = `v${m[1]}`
-  var actualVersion = `v1.0.7`;
+  var actualVersion = outstr;
 
   if (actualVersion !== version) {
     throw new Error(
