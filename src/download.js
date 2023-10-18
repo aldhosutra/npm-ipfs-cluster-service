@@ -34,7 +34,7 @@ const isWin = process.platform === "win32";
  */
 async function cachingFetchAndVerify(url) {
   const cacheDir =
-    process.env.NPM_GO_IPFS_CACHE || cachedir("npm-cluster-follow");
+    process.env.NPM_GO_IPFS_CACHE || cachedir("npm-ipfs-cluster-service");
   const filename = url.split("/").pop();
 
   if (!filename) {
@@ -235,7 +235,7 @@ async function link({ depBin, version }) {
     fs.writeFileSync(
       cmdFile,
       `@ECHO OFF
-  "%~dp0\\node_modules\\npm-cluster-follow\\bin\\ipfs-cluster-service.exe" %*`
+  "%~dp0\\node_modules\\npm-ipfs-cluster-service\\bin\\ipfs-cluster-service.exe" %*`
     );
   }
 

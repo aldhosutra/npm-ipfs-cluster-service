@@ -17,7 +17,7 @@ async function clean() {
   await fs.remove(
     path.join(__dirname, "fixtures", "example-project", "package-lock.json")
   );
-  await fs.remove(cachedir("npm-cluster-follow"));
+  await fs.remove(cachedir("npm-ipfs-cluster-service"));
 }
 
 test.onFinish(clean);
@@ -40,7 +40,7 @@ test("Ensure ipfs-cluster-service defined in package.json is fetched on dependen
   const fetchedVersion = require(path.join(
     exampleProjectRoot,
     "node_modules",
-    "npm-cluster-follow",
+    "npm-ipfs-cluster-service",
     "package.json"
   )).version;
   t.ok(
@@ -52,7 +52,7 @@ test("Ensure ipfs-cluster-service defined in package.json is fetched on dependen
   const binary = path.join(
     exampleProjectRoot,
     "node_modules",
-    "npm-cluster-follow",
+    "npm-ipfs-cluster-service",
     "bin",
     "ipfs-cluster-service"
   );

@@ -1,4 +1,4 @@
-# npm-cluster-follow
+# npm-ipfs-cluster-service
 
 [![](https://img.shields.io/badge/project-IPFS-blue.svg?style=flat-square)](https://ipfscluster.io/documentation/reference/follow/)
 
