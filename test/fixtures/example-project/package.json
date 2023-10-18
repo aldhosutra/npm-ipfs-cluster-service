@@ -6,6 +6,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "ipfs-cluster-follow": "file://../../../"
+    "ipfs-cluster-service": "file://../../../"
   }
 }

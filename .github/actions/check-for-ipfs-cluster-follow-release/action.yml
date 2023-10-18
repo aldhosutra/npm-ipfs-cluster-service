@@ -1,7 +1,7 @@
-name: 'Check for ipfs-cluster-follow release'
+name: "Check for ipfs-cluster-service release"
 runs:
-  using: 'docker'
-  image: 'Dockerfile'
+  using: "docker"
+  image: "Dockerfile"
 outputs:
   publish:
-    description: 'Whether to publish a new version'
+    description: "Whether to publish a new version"

@@ -1,18 +1,18 @@
 {
   "name": "npm-cluster-follow",
   "version": "1.0.6",
-  "description": "Install the latest ipfs-cluster-follow binary",
+  "description": "Install the latest ipfs-cluster-service binary",
   "main": "src/index.js",
   "scripts": {
     "postinstall": "node src/post-install.js",
-    "restore-bin": "git reset -- bin/ipfs-cluster-follow && git checkout -- bin/ipfs-cluster-follow",
+    "restore-bin": "git reset -- bin/ipfs-cluster-service && git checkout -- bin/ipfs-cluster-service",
     "test": "tape test/*.js | tap-spec",
     "lint": "tsc --noEmit && standard",
     "prepublishOnly": "tsc"
   },
   "pre-commit": "restore-bin",
   "bin": {
-    "ipfs-cluster-follow": "bin/ipfs-cluster-follow"
+    "ipfs-cluster-service": "bin/ipfs-cluster-service"
   },
   "files": [
     "bin",
